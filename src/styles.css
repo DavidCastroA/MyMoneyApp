@@ -1,7 +1,25 @@
+
 body {
-    background: #43C6AC;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #544a7d;  
+    background: -webkit-linear-gradient(to right, #544a7d, #ffd452); 
+    background: linear-gradient(to right, #544a7d, #ffd452);
+
+  /*Calido exagerado
+    background: #FDC830;
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);
+    background: linear-gradient(to right, #F37335, #FDC830);         */
+
+  /*Es como un verde fresco
+    background: #43C6AC; 
+    background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);
+    background: linear-gradient(to right, #F8FFAE, #43C6AC);         */
 }
 
+.fontTitle {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(70, 10, 135);
+/*  color:   rgb(30, 10, 60);  opcion 2 | Este tambien puede ser */
+/*  color:   rgb(50, 7,  95);  opcion 3 */
+    text-transform: uppercase;
+}
 
