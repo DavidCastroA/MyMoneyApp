@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Subject } from 'rxjs';
+import { Observable, Subject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -17,6 +17,10 @@ export class PresupuestoService {
   agregarGasto(gasto: any) {
     this.restante = this.restante - gasto.cantidad;
     this.gastos$.next(gasto);
+  }
+
+  getGastos(): Observable<any> {
+    return this.gastos$.asObservable(); 
   }
 
 }
