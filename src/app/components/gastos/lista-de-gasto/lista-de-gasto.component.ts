@@ -17,7 +17,8 @@ export class ListaDeGastoComponent implements OnInit, OnDestroy {
     this.presupuesto = 0;
     this.restante = 0;
     this.subscription = this._presupuestoService.getGastos().subscribe(data => {
-      console.log(data);
+      this.restante = this.restante - data.cantidad;
+      this.listGastos.push(data);
     })
   }
 

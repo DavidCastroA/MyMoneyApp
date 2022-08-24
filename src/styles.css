@@ -17,7 +17,8 @@ body {
 
 .fontTitle {
     font-family: 'Montserrat', sans-serif;
-    color: rgb(70, 10, 135);
+    color: rgb(50, 9, 95);
+/*  color: rgb(70, 10, 135); */
 /*  color:   rgb(30, 10, 60);  opcion 2 | Este tambien puede ser */
 /*  color:   rgb(50, 7,  95);  opcion 3 */
     text-transform: uppercase;
