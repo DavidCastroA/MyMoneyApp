@@ -7,8 +7,8 @@ import { PresupuestoService } from 'src/app/services/presupuesto.service';
   templateUrl: './gastos.component.html',
   styleUrls: ['./gastos.component.css']
 })
-export class GastosComponent implements OnInit {
 
+export class GastosComponent implements OnInit {
 
   constructor(private _presupuestoService: PresupuestoService, 
               private router: Router) { }
